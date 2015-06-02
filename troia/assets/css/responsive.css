@@ -1,4 +1,4 @@
-/* 
+/*
 =======================================================================
 --------------------TO MAKE RESPONSIVE----------------------------------
 ---------------------------------------------------------------------- /
@@ -6,9 +6,9 @@
 ---------------------------------------------------------------------- */
 
 @media screen and (min-width: 768px) {
-  .content, 
-  .content .row, 
-  .content .row .left-block, 
+  .content,
+  .content .row,
+  .content .row .left-block,
   .content .row .right-block,
   .sun-content
    {
@@ -16,7 +16,7 @@
   }
   .rocket-block, .contact-block {
     position: relative;
-    top: 50%;
+    /*top: 50%;*/
     -webkit-transform: translateY(-50%);
        -moz-transform: translateY(-50%);
         -ms-transform: translateY(0%);
@@ -25,14 +25,14 @@
   }
   .sun {
     position: relative;
-    top: 50%;
+    /*top: 50%;*/
     -webkit-transform: translateY(-48%);
        -moz-transform: translateY(-50%);
         -ms-transform: translateY(0%);
          -o-transform: translateY(0%);
             transform: translateY(-50%);
   }
-  
+
   .sun img {
 	  position:relative;
 	  bottom:-96px;
@@ -56,8 +56,8 @@
 }
 
 /*------targetting the IE10 and above------*/
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
-   /* IE10+ specific styles go here */ 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   /* IE10+ specific styles go here */
    .rocket-block, .contact-block {
         top: 10%;
         transform: translateY(0%);
@@ -66,7 +66,7 @@
 		position:relative;
 	  top:50%;
 	  transform: translateY(-50%);
-	 } 
+	 }
 }
 
 @media screen and (max-width: 768px) {

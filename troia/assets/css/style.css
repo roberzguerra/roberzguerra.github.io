@@ -104,7 +104,8 @@ a:active {color: #416467;}
 ----------------------------------------*/
 
 .bg {
-	background: url(../images/bg.jpg)  no-repeat center center;
+	/*background: url(../images/bg.jpg)  no-repeat center center;*/
+  background: url(../../images/wedding.jpg)  no-repeat center center;
     -webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;
@@ -395,8 +396,12 @@ nav section {
 
 /* #############################################################################
 CSS rewrite */
+.sun {
+  top: 28%;
+}
 .sun h1 {
   font-size: 36px;
   margin-bottom: 0;
   text-align: left;
+
 }

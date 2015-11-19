@@ -2491,7 +2491,7 @@
 				}
 
 				#main section.one.cover header {
-					margin: 0;
+				        margin: 0px auto -50px auto;
 				}
 
 				#main section.one.cover {
@@ -2550,7 +2550,9 @@
 				#main section.cover header {
 					padding: 0 1em;
 				}
-
+			#main section.one.cover header {
+					margin: 0px auto -40px auto;
+			}
 		/* Footer */
 
 			#footer .copyright li {

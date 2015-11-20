@@ -32,6 +32,8 @@
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Início</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-question-circle">O que é?</span></a></li>
 								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-gears">Funcionalidades</span></a></li>
+								<li><a href="#tecnicos" id="tecnicos-link" class="skel-layers-ignoreHref"><span class="icon fa-code">Aspectos Técnicos</span></a></li>
+								<li><a href="#contribute" id="tecnicos-link" class="skel-layers-ignoreHref"><span class="icon fa-rocket">Aspectos Técnicos</span></a></li>
 								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contato</span></a></li>
 							</ul>
 						</nav>
@@ -44,9 +46,10 @@
 							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-							 -->
-							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
 							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+							 -->
+							<li><a href="https://github.com/roberzguerra/rover" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
+
 						</ul>
 				</div>
 			</div>
@@ -79,7 +82,7 @@
 						<div class="container">
 
 							<header>
-								<h2>O que é?</h2>
+								<h2><span class="icon fa-question-circle"> O que é?</span></h2>
 							</header>
 
 							<p>O <strong>Projeto Rover</strong> é um CMS (Content Management System, Sistema de Gerenciamento de Conteúdo) para instituições escoteiras, sendo unidades locais e/ou regionais, como Grupos Escoteiros, Distritos e Regiões. Com o objetivo de <strong>implementar de maneira fácil e ágil um site gratuito</strong> para a instituição.</p>
@@ -145,7 +148,7 @@
 						<div class="container">
 
 							<header>
-								<h2>Funcionalidades</h2>
+								<h2><span class="icon fa-gears"> Funcionalidades</span></h2>
 							</header>
 
 							<!-- <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a> -->
@@ -165,45 +168,148 @@
 									<li><i class="fa fa-check-circle green"></i> <strong>Software Livre e Código Aberto</strong>, o sistema é totalmente desenvolvido sobre software livre, podendo ser implantado, copiado ou alterado, seguindo as diretrizes da <a href="https://github.com/roberzguerra/rover/blob/master/LICENSE" target="_blank"> Licença BSD</a>. Ou seja, códigos do sistema são de livre acesso para qualquer pessoa ou instituição utilizar, desta forma qualquer unidade escoteira pode ter um site eficiente seguindo as melhores práticas de desenvolvimento web.</li>
 									<li><i class="fa fa-check-circle green"></i> Códigos e instruções para uso encontram-se no repositório Github do desenvolvedor: <a href="https://github.com/roberzguerra/rover" target="_blank"> <i class="fa fa-github-alt"></i> https://github.com/roberzguerra/rover</a>.
 								</ul>
+						</div>
+					</section>
 
-							Salientamos que quaisquer desenvolvedor que esteja disposto a contribuir é bem vindo ao projeto.
+					<section id="tecnicos" class="two">
+						<div class="container">
+							<header>
+								<h2><span class="icon fa-code"> Aspectos Técnicos</span></h2>
+							</header>
+							<p>
+								<ul>
+									<li><i class="fa fa-coffee"></i> <strong>Plataformas suportadas:</strong> Linux, Windows ou OSX.</li>
+									<li><i class="fa fa-coffee"></i> <strong>Dependências de Software:</strong>
+										<ul class="sublist">
+											<li><i class="fa fa-rocket"></i> <a href="http://python.org/" target="_blank">Python 2.7 ao 3.3</a> - Liguagem de programação</li>
+											<li><i class="fa fa-rocket"></i> <a href="http://djangoproject.com/" target="_blank">Django 1.7 ao 1.8</a> - Framework Python</li>
+											<li><i class="fa fa-rocket"></i> <a href="http://mezzanine.jupo.org/" target="_blank"> Mezzanine 4.0.1</a> - CMS base do projeto</li>
+											<li><i class="fa fa-rocket"></i> <a href="https://github.com/python-imaging/Pillow" target="_blank">Pillow</a> - para manipulação de imagens (Python Imaging Library)</li>
+											<li><i class="fa fa-rocket"></i> <a href="http://github.com/stephenmcd/grappelli-safe" target="_blank">grappelli-safe</a> - Interface Admin (Grappelli)</li>
+											<li><i class="fa fa-rocket"></i> <a href="http://github.com/stephenmcd/filebrowser-safe/" target="_blank">filebrowser-safe</a> - Manipulação e Upload de arquivos (FileBrowser)</li>
+											<li><i class="fa fa-rocket"></i> <a href="http://pypi.python.org/pypi/bleach" target="_blank">bleach</a> e <a href="http://www.crummy.com/software/BeautifulSoup/" target="_blank">BeautifulSoup</a> - Para filtrar códigos</li>
+											<li><i class="fa fa-rocket"></i> <a href="http://pypi.python.org/pypi/pytz/" target="_blank">pytz</a> e <a href="http://pypi.python.org/pypi/tzlocal/" target="_blank">tzlocal</a> - Para suporte de zonas de horário</li>
+											<li><i class="fa fa-rocket"></i> <a href="https://chardet.readthedocs.org/" target="_blank">chardet</a> - para codificação arbitrária de arquivos</li>
+											<li><i class="fa fa-rocket"></i> <a href="http://django-modeltranslation.readthedocs.org/" target="_blank">django-modeltranslation</a> - suporte a multilinguagem de conteúdo (opcional)</li>
+											<li><i class="fa fa-rocket"></i> <a href="https://pypi.python.org/pypi/django_compressor" target="_blank">django-compressor</a> - Para compressão de arquivos estáticos (js/css) (opcional)</li>
+											<li><i class="fa fa-rocket"></i> <a href="http://docs.python-requests.org/en/latest/" target="_blank">requests</a> e <a hreg="http://requests-oauthlib.readthedocs.org/"> requests_oauthlib</a> - Para interação com APIs externas (opcional)</li>
+											<li><i class="fa fa-rocket"></i> <a href="http://pypi.python.org/pypi/pyflakes" target="_blank">pyflakes</a> e <a href="http://pypi.python.org/pypi/pep8" target="_blank">pep8</a> - para execução da suite de testes (optional)</li>
+										</ul>
+									</li>
+									<li><i class="fa fa-linux"></i> <strong>Dependências para Linux:</strong> libjpeg8, libjpeg8-dev, build-dep, python-imaging</li>
+									<li><i class="fa fa-apple"></i> <strong>Dependências para OSX:</strong> libjpeg</li>
+									<li><i class="fa fa-coffee"></i> <strong>Instalação:</strong>
+										<p>
+										<code>$ pip install mezzanine</code>
+										Se Preferir, pode baixar e instalar o Mezzanine manualmente através do setup.py:
+										<code>$ python setup.py install</code>
+										Crie o projeto de seu site:<br>
+										<code>
+											$ mezzanine-project project_name<br>
+											$ cd project_name<br>
+											$ python manage.py createdb --noinput // Para a criação do banco de dados<br>
+											$ python manage.py runserver // executa um servidor de testes da aplicação
+										</code>
+										</p>
+									</li>
+									<li><i class="fa fa-coffee"></i> <strong>Confirgurações:</strong>
+										<p>No arquivo rover/settings.py estão as configurações do projeto, para deploy (execução em produção) crie um arquivo local_settings.py no diretório 'rober' (onde encontra-se o settings.py) em seu repositório do projeto, não versionado, para armazenar as configurações locais de servidor, conforme exemplo abaixo:
+											<code>
+												# -*- coding:utf-8 -*-<br>
+												<br>
+												import os<br>
+												<br>
+												# Make these unique, and don't share it with anybody.<br>
+												SECRET_KEY = "< insert secret key >"<br>
+												NEVERCACHE_KEY = "< insert secret key>"<br>
+												<br>
+												# SECURITY WARNING: keep the secret key used in production secret!<br>
+												<br>
+												ALLOWED_HOSTS = [<br>
+												    'localhost',<br>
+												    '< nome do site aqui >',<br>
+												]<br>
 
-							Quanto aos custos, não existem custos de desenvolvimento, pois é um sistema open source (software livre e gratuito).
-							Os únicos custos possíveis para quem deseja utilizar serão os de hospedagem do sistema, em um servidor dedicado.
-							No caso do site da região do RS, realizamos uma parceria com a empresa Getup Cloud (https://getupcloud.com/) a qual nos forneceu um serviço de hospedagem satisfatório, com um suporte eficiente, a custo zero. Mediante a uma contra partida de divulgação da marca Getup, como a exposição da marca da empresa no site da instituição.
+												# Admin user: guerra pass: <br>
+												ADMINS = (<br>
+												    ('Admin Name', 'admin@server.com'),<br>
+												)<br>
+												<br>
+												MANAGERS = ADMINS<br>
+												DEBUG = True<br>
+												SERVER_STATIC_FILES = True<br>
+												TEMPLATE_DEBUG = False<br>
+												<br>
+												DATABASES = {<br>
+												    'default': {<br>
+												        # 'ENGINE': 'django.db.backends.sqlite3', # Add<br> 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.<br>
+												        # 'NAME': 'dev.db', # Or path to database file if using sqlite3: os.path.join(BASE_DIR, 'db.sqlite3'),<br>
+												        # 'USER': '', # Not used with sqlite3.<br>
+												        # 'PASSWORD': '', # Not used with sqlite3.<br>
+												        # 'HOST': '', # Set to empty string for localhost. Not used with sqlite3.<br>
+												        # 'PORT': '', # Set to empty string for default. Not used with sqlite3.<br>
+														<br>
+												        'ENGINE': 'django.db.backends.postgresql_psycopg2',<br>
+												        'NAME': '< database name >',<br>
+												        'USER': '< database user >',<br>
+												        'PASSWORD': '< database password >',<br>
+												        'HOST': '< database host >',<br>
+												        'PORT': '< database port >',<br>
+												    }<br>
+												}<br>
+												<br>
+												#STATIC_ROOT = os.path.join(os.environ.get('OPENSHIFT_REPO_DIR'), 'wsgi', 'static')<br>
+												#MEDIA_ROOT = os.path.join(os.environ.get('OPENSHIFT_DATA_DIR'), 'static', 'media')<br>
+												#MEDIA_URL = '/static/media/'<br>
+												<br>
+												# Django-debug-toolbar configs<br>
+												DEBUG_TOOLBAR_PATCH_SETTINGS = True<br>
+												DEBUG_TOOLBAR_PANELS = [<br>
+												    'debug_toolbar.panels.versions.VersionsPanel',<br>
+												    'debug_toolbar.panels.timer.TimerPanel',<br>
+												    'debug_toolbar.panels.settings.SettingsPanel',<br>
+												    'debug_toolbar.panels.headers.HeadersPanel',<br>
+												    'debug_toolbar.panels.request.RequestPanel',<br>
+												    'debug_toolbar.panels.sql.SQLPanel',<br>
+												    #'debug_toolbar.panels.staticfiles.StaticFilesPanel',<br>
+												    'debug_toolbar.panels.templates.TemplatesPanel',<br>
+												    'debug_toolbar.panels.cache.CachePanel',<br>
+												    'debug_toolbar.panels.signals.SignalsPanel',<br>
+												    'debug_toolbar.panels.logging.LoggingPanel',<br>
+												    'debug_toolbar.panels.redirects.RedirectsPanel',<br>
+												]<br>
+												<br>
+												INTERNAL_IPS = [<br>
+												    '127.0.0.1'<br>
+												]<br>
+												<br>
+												EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'  #Envia email real<br>
+												EMAIL_HOST = 'smtp.gmail.com'  #default='localhost'<br>
+												EMAIL_HOST_USER = 'email@gmail.com'<br>
+												EMAIL_HOST_PASSWORD = '< email password >'<br>
+												EMAIL_PORT = 587<br>
+												EMAIL_USE_TLS = True<br>
+											</code>
+										</p>
+								</ul>
+							</p>
+						</div>
+					</section>
 
+					<section id="contribute" class="three">
+						<div class="container">
+							<header>
+								<h2><span class="icon fa-rocket"> Contribua com o Projeto </span></h2>
+							</header>
 
-														<p>
-															Baseado no CMS Mezzanine, utilizando o framework Django, é um CMS Open Source, de código aberto e livre para ser utilizado, copiado e/ou modificado.
-
-
-
-
-							** Versão atual: 1.0 - Mercury **
-
-							Contribua com o projeto
-
-							Para contribuir com o projeto Rover observe as seguintes diretrizes:
-
-							Antes de enviar ou para sugerir qualquer modificação, discuti-la no Grupo de Usuários e Desenvolvedores do Projeto Rover.
-							O código partilhado deve ser escrito nos padrões existentes. Para Python (e até certo ponto decente, JavaScript também), seguindo os padrões de codificação Django e (mais importante) PEP 8. Front-end CSS devem aderir às diretrizes Bootstrap CSS.
-							Contribuições devem ser enviadas em uma branch separada, com nome específico referente à sua funcionalidade.
-							Toda e qualquer alteração de código será previamente aprovada pelo moderador do projeto, levando em conta sua relevância e discussões no Grupo de Usuários e Desenvolvedores do Projeto Rover.
-							Modulos:
-
-							Eventos (events): cria hotsites exclusivos para eventos;
-							Institucional (institutional): site institucional da instituição;
-							Grupos Escoteiros (scout_group): cadastro de grupos escoteiros por Distritos;
-							Equipes (mezzanine_people): cadastro de pessoas em equipes;
-							Gestão de Arquivos (mezzanine_file_collections): navegador de arquivos e sistema de Downloads;
-							Configurações
-
-							Arquivo rover/settings.py Crie um arquivo local_settings.py em seu repositório do projeto, não versionado, para armazenar as configurações locais de servidor.
-
-							O Projeto Rover é uma iniciativa dos Escoteiros do Brasil - Região Rio Grande do Sul. Do RS para o mundo ;)
-
-							Projeto sob licensa BSD</p>
-
+							<p> <i class="fa fa-github-alt"></i>
+								Repositório Github do Projeto Rover: <a href="https://github.com/roberzguerra/rover" target="_blank">https://github.com/roberzguerra/rover</a><br>
+								<strong>Para contribuir com o desenvolvimento do projeto Rover observe as seguintes diretrizes:</strong><br>
+								Antes de enviar ou para sugerir qualquer modificação, discuti-la no Grupo de Usuários e Desenvolvedores do Projeto Rover.<br>
+								O código partilhado deve ser escrito nos padrões existentes. Para Python (e até certo ponto decente, JavaScript também), seguindo os padrões de codificação Django e (mais importante) PEP 8. Front-end CSS devem aderir às diretrizes Bootstrap CSS.<br>
+								Contribuições devem ser enviadas em uma branch separada, com nome específico referente à sua funcionalidade.<br>
+								Toda e qualquer alteração de código será previamente aprovada pelo moderador do projeto, levando em conta sua relevância e discussões no Grupo de Usuários e Desenvolvedores do Projeto Rover.<br>
+							</p>
 						</div>
 					</section>
 
@@ -211,7 +317,7 @@
 					<section id="contact" class="four">
 						<div class="container">
 							<header>
-								<h2>Contato</h2>
+								<h2><span class="icon fa-envelope"> Contato</span></h2>
 							</header>
 
 							<p>
@@ -242,6 +348,7 @@
 				<!-- Copyright -->
 					<ul class="copyright">
 						<li>Desenvolvidor por @Roberzguerra</li>
+						<li>Uma iniciativa dos <a href="http://escoteirosrs.org.br" target="_blank">Escoteiros do Brasil</a> & <a href="http://escoteirosrs.org.br/pt-br/downloads/rede-de-jovens/" target="_blank">Rede de Jovens Líderes</a> do Rio Grande do Sul</li>
 					</ul>
 
 			</div>

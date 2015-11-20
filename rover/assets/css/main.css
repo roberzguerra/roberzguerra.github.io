@@ -1788,6 +1788,9 @@
 			padding-left: 0.25em;
 		}
 
+	ul.sublist {
+		margin: 0 0 0 2em;
+	}
 /* Form */
 
 	form label {
@@ -1863,6 +1866,13 @@
 		border: 0;
 	}
 
+	code {
+		color: #000;
+		display: block;
+		background: #CCC;
+		border-radius: 1rem;
+		padding: 1rem;
+	}
 /* Table */
 
 	table {

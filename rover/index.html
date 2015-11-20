@@ -32,8 +32,9 @@
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Início</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-question-circle">O que é?</span></a></li>
 								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-gears">Funcionalidades</span></a></li>
+								<li><a href="#gallery-site" id="gallery-link" class="skel-layers-ignoreHref"><span class="icon fa-gears">Galeria</span></a></li>
 								<li><a href="#tecnicos" id="tecnicos-link" class="skel-layers-ignoreHref"><span class="icon fa-code">Aspectos Técnicos</span></a></li>
-								<li><a href="#contribute" id="tecnicos-link" class="skel-layers-ignoreHref"><span class="icon fa-rocket">Aspectos Técnicos</span></a></li>
+								<li><a href="#contribute" id="cotribute-link" class="skel-layers-ignoreHref"><span class="icon fa-rocket">Contribua com o Projeto</span></a></li>
 								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contato</span></a></li>
 							</ul>
 						</nav>
@@ -143,7 +144,6 @@
 						</div>
 					</section>
 
-				<!-- About Me -->
 					<section id="about" class="three">
 						<div class="container">
 
@@ -170,6 +170,49 @@
 								</ul>
 						</div>
 					</section>
+
+					<!-- Gallery -->
+						<section id="gallery-site" class="four">
+							<div class="container">
+
+								<header>
+									<h2><span class="icon fa-gears"> Galeria</span></h2>
+								</header>
+								<p>
+									Confira algumas imagens da área administrativa.
+								</p>
+
+								<div id="thumbnails" class="thumbs">
+									<ul class="gallery clearfix">
+									<!-- source: http://dribbble.com/shots/1115721-Turntable -->
+										<li><a href="images/prints/01_administracao_site.png" data-lightbox="roadtrip" data-title="Tela inicial - Administração do Site"><img src="images/prints/thumbs/01_administracao_site.png" alt="turntable" style="width:300px;"></a></li>
+
+										<li><a href="images/prints/02_administracao_paginas.png" data-lightbox="roadtrip" data-title="Administração de Páginas"><img src="images/prints/thumbs/02_administracao_paginas.png" alt="DIY Robot Kit" style="width:300px;"></a></li>
+
+										<li><a href="images/prints/03_cadastro_pagina_inicial.png" data-lightbox="roadtrip" data-title="Administração de Páginas"><img src="images/prints/thumbs/03_cadastro_pagina_inicial.png" alt="DIY Robot Kit" style="width:300px;"></a></li>
+
+										<li><a href="images/prints/04_posts_blog.png" data-lightbox="roadtrip" data-title="Administração de Páginas"><img src="images/prints/04_posts_blog.png" alt="DIY Robot Kit" style="width:300px;"></a></li>
+
+										<li><a href="images/prints/05_edicao_post_blog.png" data-lightbox="roadtrip" data-title="Administração de Páginas"><img src="images/prints/05_edicao_post_blog.png" alt="DIY Robot Kit" style="width:300px;"></a></li>
+
+										<li><a href="images/prints/06_biblioteca_midia.png" data-lightbox="roadtrip" data-title="Administração de Páginas"><img src="images/prints/06_biblioteca_midia.png" alt="DIY Robot Kit" style="width:300px;"></a></li>
+
+										<li><a href="images/prints/07_cadastro_pessoas_equipes.png" data-lightbox="roadtrip" data-title="Administração de Páginas"><img src="images/prints/07_cadastro_pessoas_equipes.png" alt="DIY Robot Kit" style="width:300px;"></a></li>
+
+										<li><a href="images/prints/08_cadastro_grupos_equipes.png" data-lightbox="roadtrip" data-title="Administração de Páginas"><img src="images/prints/08_cadastro_grupos_equipes.png" alt="DIY Robot Kit" style="width:300px;"></a></li>
+
+										<li><a href="images/prints/09_paginas_personalisadas_eventos.png" data-lightbox="roadtrip" data-title="Administração de Páginas"><img src="images/prints/09_paginas_personalisadas_eventos.png" alt="DIY Robot Kit" style="width:300px;"></a></li>
+
+										<li><a href="images/prints/10_controle_permissoes_usuarios_grupos.png" data-lightbox="roadtrip" data-title="Administração de Páginas"><img src="images/prints/10_controle_permissoes_usuarios_grupos.png" alt="DIY Robot Kit" style="width:300px;"></a></li>
+
+										<li><a href="images/prints/11_configuracoes_gerais.png" data-lightbox="roadtrip" data-title="Administração de Páginas"><img src="images/prints/11_configuracoes_gerais.png" alt="DIY Robot Kit" style="width:300px;"></a></li>
+
+										<li><a href="images/prints/12_pagina_formularios.png" data-lightbox="roadtrip" data-title="Administração de Páginas"><img src="images/prints/12_pagina_formularios.png" alt="DIY Robot Kit" style="width:300px;"></a></li>
+									</ul>
+								</div>
+
+							</div>
+						</section>
 
 					<section id="tecnicos" class="two">
 						<div class="container">
@@ -263,7 +306,7 @@
 												#MEDIA_URL = '/static/media/'<br>
 												<br>
 												# Django-debug-toolbar configs<br>
-												DEBUG_TOOLBAR_PATCH_	SETTINGS = True<br>
+												DEBUG_TOOLBAR_PATCH_SETTINGS = True<br>
 												DEBUG_TOOLBAR_PANELS = [<br>
 												    'debug_toolbar.panels.versions.VersionsPanel',<br>
 												    'debug_toolbar.panels.timer.TimerPanel',<br>
@@ -362,5 +405,18 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 
+			<!-- Gallery -->
+			<link href="assets/lightbox2/css/lightbox.css" rel="stylesheet">
+			<script src="assets/lightbox2/js/lightbox.min.js"></script>
+			<script type="text/javascript">
+			$(function() {
+				lightbox.option({
+			      'resizeDuration': 200,
+			      'wrapAround': true,
+				  albumLabel: 'Imagem %1 de %2',
+				  //alwaysShowNavOnTouchDevices: true
+			    })
+			});
+			</script>
 	</body>
 </html>

@@ -1689,6 +1689,21 @@
 		color: green;
 	}
 
+	.thumbs .gallery li {
+		display: block;
+		float: left;
+		margin: 0.5rem;
+	}
+	.thumbs .gallery li a img{
+		border: 2px solid transparent;
+		width: 300px;
+		height: auto;
+		border-radius: 10px;
+	}
+	.thumbs .gallery li a img:hover {
+		border: 2px solid #E27689;
+	}
+
 /* Sections/Article */
 
 	section, article {

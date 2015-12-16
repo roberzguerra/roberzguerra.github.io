@@ -69,7 +69,10 @@ body {
           animation: titles 30s linear 13s;*/
   -webkit-animation: titles 30s linear 13s;
         animation: titles 30s linear 13s;
-  /*animation-duration: 60s;*/
+  /*
+        animation-direction:normal;
+        animation-iteration-count: infinite;
+  animation-duration: 60s;*/
 }
 .starwars .titles > div > p {
   margin: 1.35em 0 1.85em 0;
@@ -175,7 +178,8 @@ body {
     opacity: 1;
   }
   100% {
-    top: 20%;
+    /*top: 20%;*/
+    top: 0%
     opacity: 0;
   }
 }

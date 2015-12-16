@@ -58,15 +58,14 @@ body {
   -webkit-transform-origin: 50% 100%;
       -ms-transform-origin: 50% 100%;
           transform-origin: 50% 100%;
-  -ms-transform: perspective(300px) rotateX(25deg);
-  -webkit-transform: perspective(300px) rotateX(25deg);
-  transform: perspective(300px) rotateX(25deg);
+  -ms-transform: perspective(300px) rotateX(25deg) scale(0.5,0.5);
+  -webkit-transform: perspective(300px) rotateX(25deg) scale(0.5,0.5);
+  transform: perspective(300px) rotateX(25deg) scale(0.5,0.5);
 }
+
 .starwars .titles > div {
   position: absolute;
   top: 100%;
-  transform: scale(0.5, 0.5);
-
   /*-webkit-animation: titles 30s linear 13s;
           animation: titles 30s linear 13s;*/
   -webkit-animation: titles 90s linear 13s;
@@ -74,13 +73,21 @@ body {
   /*animation-duration: 60s;*/
 }
 @media screen and (min-width: 47.5em) {
-    .starwars .titles > div {
-        position: absolute;
-        top: 100%;
-        transform: scale(1, 1);
-        -webkit-animation: titles 90s linear 13s;
-            animation: titles 90s linear 13s;
-        /*animation-duration: 60s;*/
+    .starwars .titles {
+      width: 14.65em;
+      margin: 0 0 0 -7.325em;
+      top: auto;
+      bottom: 0;
+      height: 50em;
+      font-size: 350%;
+      text-align: justify;
+      overflow: hidden;
+      -webkit-transform-origin: 50% 100%;
+          -ms-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      -ms-transform: perspective(300px) rotateX(25deg) scale(0.5,0.5);
+      -webkit-transform: perspective(300px) rotateX(25deg) scale(0.5,0.5);
+      transform: perspective(300px) rotateX(25deg) scale(0.5,0.5);
     }
 }
 

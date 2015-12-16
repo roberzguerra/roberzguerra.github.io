@@ -154,17 +154,21 @@ body {
   }
 }
 @-webkit-keyframes titles {
-  0% {
-    top: 100%;
-    opacity: 1;
-  }
-  95% {
-    opacity: 1;
-  }
-  100% {
-    top: 20%;
-    opacity: 0;
-  }
+    0% {
+      top: 100%;
+      opacity: 1;
+    }
+    95% {
+      opacity: 1;
+    }
+    98% {
+      opacity: 1;
+    }
+    100% {
+      /*top: 20%; */
+      top: -600%;
+      opacity: 0;
+    }
 }
 @keyframes titles {
   0% {

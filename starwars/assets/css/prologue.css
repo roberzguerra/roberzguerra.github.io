@@ -10,8 +10,6 @@ body {
   background: #000;
   overflow: hidden;
   margin: 0;
-
-  transform: scale(0.8, 0.8);
 }
 
 .starwars section {
@@ -67,6 +65,8 @@ body {
 .starwars .titles > div {
   position: absolute;
   top: 100%;
+  transform: scale(0.8, 0.8);
+
   /*-webkit-animation: titles 30s linear 13s;
           animation: titles 30s linear 13s;*/
   -webkit-animation: titles 90s linear 13s;

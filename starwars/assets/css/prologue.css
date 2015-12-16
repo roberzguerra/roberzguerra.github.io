@@ -68,7 +68,7 @@ body {
   /*-webkit-animation: titles 30s linear 13s;
           animation: titles 30s linear 13s;*/
   -webkit-animation: titles 90s linear 13s;
-        animation: titles 15s linear 13s;
+        animation: titles 90s linear 13s;
   /*animation-duration: 60s;*/
 }
 .starwars .titles > div > p {

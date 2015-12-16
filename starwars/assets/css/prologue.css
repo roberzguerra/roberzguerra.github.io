@@ -85,9 +85,9 @@ body {
       -webkit-transform-origin: 50% 100%;
           -ms-transform-origin: 50% 100%;
               transform-origin: 50% 100%;
-      -ms-transform: perspective(300px) rotateX(25deg) scale(0.5,0.5);
-      -webkit-transform: perspective(300px) rotateX(25deg) scale(0.5,0.5);
-      transform: perspective(300px) rotateX(25deg) scale(0.5,0.5);
+      -ms-transform: perspective(300px) rotateX(25deg) scale(1,1);
+      -webkit-transform: perspective(300px) rotateX(25deg) scale(1,1);
+      transform: perspective(300px) rotateX(25deg) scale(1,1);
     }
 }
 

@@ -126,6 +126,7 @@
 			});
     </script>
     <script type="text/javascript">
+        //23-05-2015
         var countDown = $("#count-down");
         var data = new Date();
         data.setHours(0);
@@ -133,7 +134,7 @@
         data.setSeconds(0);
         data.setDate(23);
         data.setMonth(4);
-        data.setFullYear(data.getFullYear() + 1);
+        data.setFullYear(data.getFullYear());
         //data-date="2025-05-23 00:00:00"
 
         var countDown = $("#count-down").attr('data-date', data);

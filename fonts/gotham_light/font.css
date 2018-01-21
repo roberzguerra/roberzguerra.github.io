@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'GothamLight';
-	src: url('https://roberzguerra.github.io/fonts/gotham/GothamLight.eot');
-	src: local('GothamLight'), url('https://roberzguerra.github.io/fonts/gotham/GothamLight.woff') format('woff'), url('https://roberzguerra.github.io/fonts/gotham/GothamLight.ttf') format('truetype');
+	src: url('https://roberzguerra.github.io/fonts/gotham_light/GothamLight.eot');
+	src: local('GothamLight'), url('https://roberzguerra.github.io/fonts/gotham_light/GothamLight.woff') format('woff'), url('https://roberzguerra.github.io/fonts/gotham_light/GothamLight.ttf') format('truetype');
 }
 /* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_4008">Text with this font applied</p> */
 .fontsforweb_fontid_4008 {

@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Gotham';
+	src: url('https://roberzguerra.github.io/fonts/gotham/Gotham-Medium.otf');
+	src: local('Gotham'), url('https://roberzguerra.github.io/fonts/gotham/Gotham-Medium.woff') format('woff');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_10146">Text with this font applied</p> */
+.font-gotham {
+	font-family: 'Gotham' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */
